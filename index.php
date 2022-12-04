@@ -9,5 +9,9 @@
 <body>
     <h1>ESTO ES MI CURSO</h1>
      <p>esto es el primer parrafo de lo que estamos haciendo </p>
+
+     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis alias, fugiat similique aliquam sunt temporibus mollitia ex sit vitae a tempore inventore blanditiis quod praesentium harum veritatis dolor eum modi.</p>
+
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quam earum maxime, inventore molestiae esse saepe id dolores culpa quidem harum aliquam, blanditiis consequatur exercitationem fugit, adipisci error autem nesciunt.</p>
 </body>
 </html>
