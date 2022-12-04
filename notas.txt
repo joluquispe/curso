@@ -1,0 +1,52 @@
+
+comandos del curso GIT con el profe Freddy de PLatzi
+
+git init -- inicializa el repositorio de git ESPACIO DE TRABAJO
+git add -- esto manda del directorio local al stage
+git commit -- agrega del stage al repositorio / tiene que comentar que se esta alterando en ese commit , es buena practica
+git reset -- tienes dos tipos --hard Que borra todo todito vuelve al pasado pero sin la opcion de volver al futuro y el SOFT borra pero se guarda historial de git 
+
+¿Qué es BRANCH?
+- MASTER - Aqui se mantienen las versiones
+- EXPERIMENTOS - (developement) Aqui donde se trabaja 
+- BUGFIXING - (hotfix) arreglos en caliente 
+
+git checkout que nos deja ir, mirar, pasear y volver.
+git reset volvemos al pasado sin al posibilidad de volver al futuro
+
+git reset HEAD, lo único que haremos será mover estos cambios de Staging a Unstaged.
+
+git clone url - trae todo del repositorio remoto
+git fetch trae de repositorio remoto a reposito rio local
+git merge lleva del rep local al area de trabajo o directorio de tabajo
+git pull es traer del repositorio remoto directamente a repositorio local y al mismo tiempo directorio de trabajo
+
+
+git add agrega a staging
+git commit agrega a repositorio local
+
+
+CREAR RAMA
+se crea desde uno se encuentra
+es sencillamente como insertar git branch NOMBRE DE LA RAMA
+
+git checkout cambia de rama git checkout cabecera
+git show es para ver los cambios desde el editor bin
+
+en caso de que dos programadores editan la misma linea de codigo
+
+
+USO DE GITHUB
+
+README Es el archivo que se va visualizar 
+add gitignore
+add git a linsence
+
+git remote add origin "pegas el ssh que copiaste de github"
+git remote 
+git remote -v
+
+git push origin master
+git pull origin master
+git pull origin --allow-unrelated-histories
+
